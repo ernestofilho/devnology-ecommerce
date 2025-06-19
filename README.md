@@ -1,5 +1,12 @@
 # Devnology E-commerce
 
+## 🎥 Demonstração do Projeto
+
+https://github.com/user-attachments/assets/2b4875db-cd12-4aca-be65-d44a5bb75316
+
+P.S: A qualidade do vídeo foi reduzida para caber no README. O vídeo com a qualidade original se encontra na raiz do projeto.
+---
+
 Este repositório contém a solução completa para o teste técnico de desenvolvedor fullstack da empresa Devnology. O projeto implementa uma aplicação de e-commerce que integra produtos de dois fornecedores via API, permitindo pesquisar, filtrar, adicionar ao carrinho e finalizar compras.
 
 ## 🚀 Tecnologias Utilizadas
@@ -158,6 +165,9 @@ flutter run
 - **CORS habilitado**: Permite requisições do frontend para o backend
 - **Tratamento de erros**: Implementado em todas as camadas da aplicação
 
+**Observação sobre Imagens (Workaround):**
+As APIs de produtos fornecidas para o teste utilizavam o serviço `http://placeimg.com/` para as URLs das imagens. Como este serviço não está mais ativo, foi implementado um *workaround* no backend. O serviço de produtos do NestJS agora detecta e substitui essas URLs por imagens mockadas do [Picsum Photos](https://picsum.photos/), garantindo que as imagens sejam exibidas corretamente tanto no frontend web quanto no mobile.
+
 ## 🔗 APIs dos Fornecedores
 
 O sistema consome dados de duas APIs externas:
@@ -195,6 +205,4 @@ Este projeto demonstra uma implementação completa de um e-commerce moderno, ut
 ---
 
 **Desenvolvido por:** Ernesto Reis  
-**Data:** Junho 2025  
-**Teste Técnico:** Devnology
-
+**Data:** Junho 2025
