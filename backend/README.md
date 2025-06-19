@@ -12,7 +12,7 @@ npm install
 
 ```bash
 # Desenvolvimento
-npm run start
+npm start
 
 # Watch mode
 npm run start:dev
